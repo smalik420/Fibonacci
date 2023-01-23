@@ -62,6 +62,11 @@ public class Fibonacci {
 		return fib2;
 	}
 	
+	//works for iterative and recursive, but iterative takes less stack
+	//space and is also much faster, proving how it is better to default
+	//to using iterative unless it is a tree, converging, or it gets
+	//significantly simpler without losing too much effeciency
+	
 	/**
 	 *	Calculate the nth Fibonacci number using recursion.
 	 *	@param n	the Fibonacci index
